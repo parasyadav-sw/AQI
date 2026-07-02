@@ -1,0 +1,305 @@
+Build a complete Smart India Hackathon (SIH) level AI-powered web application named "AirGuard AI – Air Quality Prediction & Smart Health Advisory System".
+
+Objective:
+Develop a production-ready full-stack application that predicts Air Quality Index (AQI) using Machine Learning, visualizes pollution trends, identifies pollution hotspots, and provides personalized health advisories for citizens and government authorities.
+
+Technology Stack:
+• Frontend: React.js + TypeScript + Vite
+• UI: Tailwind CSS + Shadcn/UI + Framer Motion
+• Backend: Python FastAPI
+• Machine Learning: Scikit-learn, XGBoost, TensorFlow (LSTM), Pandas, NumPy
+• Database: PostgreSQL
+• Authentication: JWT
+• Maps: Leaflet or Google Maps
+• Charts: Recharts
+• Notifications: Email and Push Notifications
+• Deployment Ready: Docker
+
+The application should have a modern, premium, responsive, and SIH-winning UI with smooth animations, glassmorphism, gradient cards, dark/light mode, beautiful dashboards, and mobile-first responsive design.
+
+==========================
+MODULES
+==========================
+
+1. Authentication
+- User Registration
+- Login
+- Forgot Password
+- Email Verification
+- JWT Authentication
+- Role-Based Access
+    - Citizen
+    - Government Officer
+    - Admin
+
+2. Citizen Dashboard
+Display:
+- Current AQI
+- AQI Category
+- Today's Prediction
+- Next 24 Hours Prediction
+- Next 72 Hours Prediction
+- Weekly Trend
+- Pollutant Levels
+- Weather Conditions
+- Health Advisory
+- Nearby Pollution Hotspots
+- Interactive Pollution Map
+- Favorite Locations
+- Recent Alerts
+
+3. Government Dashboard
+Display:
+- City-wise AQI
+- District-wise AQI
+- Heatmap
+- Pollution Trends
+- Prediction Analytics
+- High Risk Areas
+- Reports
+- Download CSV/PDF
+- Emergency Alerts
+- AI Insights
+
+4. Admin Dashboard
+- Manage Users
+- Manage Cities
+- Manage Sensors
+- Upload Dataset
+- Retrain ML Model
+- View Logs
+- Manage Alerts
+- Dashboard Analytics
+- Backup Database
+
+==========================
+MACHINE LEARNING
+==========================
+
+Use historical AQI dataset.
+
+Features:
+- PM2.5
+- PM10
+- NO2
+- SO2
+- CO
+- O3
+- Temperature
+- Humidity
+- Wind Speed
+- Pressure
+- Rainfall
+- Date
+- Time
+
+Implement:
+- Data Cleaning
+- Missing Value Handling
+- Feature Engineering
+- Normalization
+- Train/Test Split
+- Model Comparison
+
+Train and compare:
+- Linear Regression
+- Decision Tree
+- Random Forest
+- XGBoost
+- LSTM
+
+Automatically select the best-performing model based on RMSE and R² Score.
+
+Prediction:
+- Next 24 Hours AQI
+- Next 48 Hours AQI
+- Next 72 Hours AQI
+
+Display:
+- Accuracy
+- RMSE
+- MAE
+- R² Score
+- Feature Importance
+
+==========================
+AI FEATURES
+==========================
+
+Implement:
+- AQI Prediction
+- Pollution Trend Prediction
+- Pollution Hotspot Detection
+- Health Risk Prediction
+- Explainable AI
+- Personalized Health Recommendations
+- AI-generated Daily Air Quality Summary
+
+Health Advice:
+Excellent
+Good
+Moderate
+Poor
+Very Poor
+Severe
+
+Recommendations for:
+- Children
+- Elderly
+- Pregnant Women
+- Asthma Patients
+- Heart Patients
+- Athletes
+
+==========================
+MAP FEATURES
+==========================
+
+Interactive Map showing:
+- Live AQI
+- Pollution Hotspots
+- AQI Colors
+- Pollution Layers
+- Search City
+- User Location
+- Heatmap
+- Marker Clustering
+
+==========================
+NOTIFICATIONS
+==========================
+
+Send alerts when:
+- AQI becomes Poor
+- AQI becomes Severe
+- Sudden Pollution Spike
+- Rain Improves AQI
+
+==========================
+ANALYTICS
+==========================
+
+Show:
+- AQI History
+- Pollutant Comparison
+- Seasonal Trends
+- Monthly Reports
+- Weekly Reports
+- Download Reports
+- Interactive Charts
+
+==========================
+DATABASE
+==========================
+
+Design complete PostgreSQL schema for:
+Users
+Cities
+Sensors
+AQI Data
+Predictions
+Alerts
+Reports
+Logs
+Notifications
+
+==========================
+API
+==========================
+
+Create REST APIs for:
+Authentication
+Prediction
+Dashboard
+Reports
+Users
+Cities
+Sensors
+Notifications
+Admin
+Analytics
+
+Generate Swagger Documentation.
+
+==========================
+PROJECT STRUCTURE
+==========================
+
+Generate complete production-ready folder structure.
+
+Separate:
+Frontend
+Backend
+Machine Learning
+Database
+API
+Assets
+Documentation
+
+==========================
+DOCUMENTATION
+==========================
+
+Generate:
+- README.md
+- Installation Guide
+- API Documentation
+- Database Schema
+- Architecture Diagram
+- Flowchart
+- ER Diagram
+- Sequence Diagram
+- Deployment Guide
+- Testing Guide
+
+==========================
+UI/UX
+==========================
+
+The application should look like a premium SaaS product with:
+- Beautiful landing page
+- Hero section
+- Statistics cards
+- Animated graphs
+- Responsive sidebar
+- Dark/Light Mode
+- Loading Skeletons
+- Empty States
+- Toast Notifications
+- Smooth Page Transitions
+- Accessibility support
+
+==========================
+CODE QUALITY
+==========================
+
+Follow:
+- SOLID Principles
+- MVC Architecture
+- Clean Code
+- Modular Components
+- Reusable Hooks
+- Error Handling
+- Logging
+- Input Validation
+- Secure Authentication
+- Environment Variables
+- Docker Support
+
+==========================
+BONUS FEATURES
+==========================
+
+Implement:
+- Voice Assistant
+- AI Chatbot for Air Quality Queries
+- Multi-language Support (English, Hindi, Marathi)
+- Offline Mode
+- Progressive Web App (PWA)
+- IoT Sensor Integration
+- Real-time Data Streaming
+- Predictive Maintenance for Sensors
+- Carbon Footprint Calculator
+- Green Route Recommendation
+
+The project must be fully functional, scalable, production-ready, well-documented, and suitable for winning Smart India Hackathon. Generate the project step-by-step, beginning with the complete folder structure, followed by backend, machine learning pipeline, frontend, database, API integration, testing, and deployment.
